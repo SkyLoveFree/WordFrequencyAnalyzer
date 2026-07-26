@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="WordFrequencyAnalyzer/WordFrequencyAnalyzer.vcxproj" Id="2132e724-5d45-4981-a6ed-778534d95244" />
+</Solution>
