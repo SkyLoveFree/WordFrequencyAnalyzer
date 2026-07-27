@@ -1,1 +1,33 @@
-Hello World !
+The quick brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs! 1234567890.
+A madam saw a was madam, and to every single person she asked: "Madam, I'm Adam." 
+How vexingly quick daft zebras jump! The five boxing wizards jump quickly. 
+Sphinx of black quartz, judge my vow. Two driven jocks help fax my big quiz.
+Crazy Fredericka bought many very exquisite opal jewels. We promptly judged antique ivory buckles for the next prize.
+Foxy diva Jennifer Lopez warns Jack Quint slyly. A bad man, a sad man, a glad man, a mad plan!
+Bob: "Did you see that 747 fly over?" Carol replied, "Yes, at 8:30 AM sharp!"
+The HTTP status codes are: 200 OK, 301 Moved Permanently, 404 Not Found, 500 Internal Server Error.
+ASCII ranges: 0x20-0x7E are printable, 0x00-0x1F are control chars, 0x7F is DEL.
+Email format: user@domain.com, phone: (555) 123-4567, price: $19.99, percent: 85%.
+Query string: ?id=42&name=test&sort=desc#section1
+Path: C:\Users\Admin\Documents\file.txt on Windows, /home/user/file.txt on Linux.
+Symbol test: !@#$%^&*()_+-={}[]|\:";'<>,.?/~`
+Math: 1+1=2, 2 * 3=6, 10/5=2, 3-1=2. Pi approximation: 3.14159.
+Hex: 0xDEADBEEF, 0xCAFEBABE, 0xFF. Binary: 101010, Octal: 0755.
+SQL: SELECT * FROM users WHERE id=1; -- comment
+Regex: ^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$
+JSON: {"name": "John", "age": 30, "active": true}
+XML: <root><item id="1">Hello</item></root>
+CSV: name,age,city\nAlice,25,NYC\nBob,30,LA
+Log: [2024-01-15 10:30:45] INFO: User logged in successfully (user_id=42, ip=192.168.1.1)
+URL: https://www.example.com:8080/api/v1/search?q=hello+world
+Shell: ls -la | grep ".txt" && echo "Found" || echo "Not found"
+C code: int main() { printf("Hello, World!\n"); return 0; }
+Grep: grep -r "TODO" /src/ --include="*.c" -n -B2 -A2
+Base64: SGVsbG8sIFdvcmxkIQ==
+Morse: .... . .-.. .--. / .-- --- .-. .-.. -..
+Pig Latin: ello-Hay orld-Way!
+ROT13: Uryyb, Jbeyq! (that's "Hello, World!" rotated)
+Lorem ipsum: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+More symbols: ~`!@#$%^&*()_+-={}[]|\:";'<>,.?/  --  all within ASCII range.
+Mixed case test: AbCdEfGhIjKlMnOpQrStUvWxYz and 0123456789 and symbols !@#$%^&*()
+The rain in Spain stays mainly in the plain. (said by Henry Higgins in My Fair Lady, 1964)

@@ -36,7 +36,4 @@
   <ItemGroup>
     <None Include="test.text" />
   </ItemGroup>
-  <ItemGroup>
-    <Text Include="reademe.txt" />
-  </ItemGroup>
 </Project>

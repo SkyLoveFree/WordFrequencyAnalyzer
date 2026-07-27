@@ -10,10 +10,10 @@ int main()
 	{
 		FileReader reader;
 		std::string str = reader.readFile(R"(C:\Users\Sky\source\repos\WordFrequencyAnalyzer\WordFrequencyAnalyzer\test.text)");
-		std::cout << str << std::endl;
 		TextAnalyzer analyzer;
 		analyzer.analyze(str);
-		analyzer.printFrequency();
+		analyzer.getSortedFrequency();
+		analyzer.pirntSortedFrequency();
 	}
 	catch (std::exception& e)
 	{
