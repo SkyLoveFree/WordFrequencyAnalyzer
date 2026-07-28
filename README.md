@@ -1,6 +1,10 @@
 一个简单的通过c++实现检测文本中词语出现次数的简单软件，也是我真正要落地的第一款软件。
 A simple C++ text Words  frequency analyzer project
 
+This project uses [utfcpp](https://github.com/nemtrif/utfcpp) for UTF-8 encoding and decoding support.
+
+Thanks to the developers of utfcpp for providing this excellent library.
+
 V0.1.0
 just a demo
 can read text and output frequency
@@ -15,3 +19,7 @@ However, encountering characters outside the ASCII range causes bugs.
 
 Next step:​
 Implement UTF-8 decoding so that the program does not crash when reading special characters.
+
+v0.2.0
+
+支持识别utf-8了，感谢utfcpp,下一步计划开始实现输出词语的输出频率。

@@ -146,6 +146,7 @@
   <ItemGroup>
     <ClInclude Include="FileReader.h" />
     <ClInclude Include="TextAnalyzer.h" />
+    <ClInclude Include="utf8.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="test.text" />
