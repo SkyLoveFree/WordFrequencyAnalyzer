@@ -11,9 +11,8 @@ int main()
 		FileReader reader;
 		std::string str = reader.readFile(R"(C:\Users\Sky\source\repos\WordFrequencyAnalyzer\WordFrequencyAnalyzer\test.text)");
 		TextAnalyzer analyzer;
-		analyzer.analyze(str);
-		analyzer.getSortedFrequency();
-		analyzer.pirntSortedFrequency();
+		analyzer.analyzeChar(str);
+		analyzer.printCharFrequency();
 	}
 	catch (std::exception& e)
 	{

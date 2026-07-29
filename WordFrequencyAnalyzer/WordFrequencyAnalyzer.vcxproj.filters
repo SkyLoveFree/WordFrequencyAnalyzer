@@ -18,15 +18,27 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="TextAnalyzer.cpp">
+    <ClCompile Include="CharacterAnalyzer.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="FileReader.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="TextAnalyzer.h">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UTF8Codec.h">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UTF8Codec.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TextAnalyzer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="TextAnalyzer.h">
+    <ClInclude Include="CharacterAnalyzer.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="FileReader.h">
