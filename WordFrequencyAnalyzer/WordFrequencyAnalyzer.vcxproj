@@ -144,12 +144,14 @@
     <ClCompile Include="CharacterAnalyzer.cpp" />
     <ClCompile Include="TextAnalyzer.cpp" />
     <ClCompile Include="TextAnalyzer.h" />
+    <ClCompile Include="TextSearcher.cpp" />
     <ClCompile Include="UTF8Codec.cpp" />
     <ClCompile Include="UTF8Codec.h" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FileReader.h" />
     <ClInclude Include="CharacterAnalyzer.h" />
+    <ClInclude Include="TextSearcher.h" />
     <ClInclude Include="utf8.h" />
   </ItemGroup>
   <ItemGroup>

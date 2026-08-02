@@ -36,6 +36,9 @@
     <ClCompile Include="TextAnalyzer.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="TextSearcher.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CharacterAnalyzer.h">
@@ -45,6 +48,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="utf8.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TextSearcher.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

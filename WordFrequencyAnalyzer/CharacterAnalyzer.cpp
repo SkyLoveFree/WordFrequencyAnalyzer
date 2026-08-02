@@ -2,7 +2,7 @@
 #include<iostream>
 #include<algorithm>
 
-void CharacterAnalyzer::analyze(const std::vector<std::uint32_t> codepoints)
+void CharacterAnalyzer::analyze(const std::vector<char32_t> codepoints)
 {
 	for (auto cp : codepoints)
 	{
@@ -30,7 +30,7 @@ void CharacterAnalyzer::pirntFrequency()
 				  << std::endl;
 	}
 }
-bool CharacterAnalyzer::shouldIgnore(uint32_t c)
+bool CharacterAnalyzer::shouldIgnore(char32_t c)
 {
 	return c == 0x0020 || c == 0x0009 || c == 0x000A || c == 0x000D
 		|| c == 0x00A0   // 不间断空格
