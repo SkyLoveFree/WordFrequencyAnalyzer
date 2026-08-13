@@ -1,0 +1,23 @@
+# CMake build files
+build/
+
+# Visual Studio files
+.vs/
+*.suo
+*.user
+
+# VS Code
+.vscode/
+
+# Compiled files
+*.exe
+*.dll
+*.obj
+*.lib
+*.pdb
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
