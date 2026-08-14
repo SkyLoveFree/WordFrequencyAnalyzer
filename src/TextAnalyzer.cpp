@@ -12,7 +12,12 @@ void TextAnalyzer::printCharFrequency()
 	CharacterAnalyzer.pirntFrequency();
 }
 
-int TextAnalyzer::StringOccurrences(const std::string& text, const std::string& target)
+SearchResult TextAnalyzer::search(const std::string& text, const std::string& target)
 {
-	return TextSearcher.countOccurrences(text, target);
+	return TextSearcher.search(text, target);
+}
+
+std::vector<std::string> TextAnalyzer::getContexts(const SearchResult& result,ContextConfig config)
+{
+	return TextSearcher.getContexts(result,config);
 }

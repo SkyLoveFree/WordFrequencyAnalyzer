@@ -22,3 +22,14 @@ std::string UTF8Codec::encode(const char32_t& cp)
 	return result;
 }
 
+std::string UTF8Codec::encode(const std::vector<char32_t>& codepoints)
+{
+	std::string result;
+	result.reserve(codepoints.size() * 4); // 预分配内存，避免多次分配
+	for(const auto&cp:codepoints)
+	{
+		utf8::append(cp,std::back_inserter(result));
+	}
+	return result;
+}
+

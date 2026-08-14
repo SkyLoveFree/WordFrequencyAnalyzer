@@ -45,3 +45,11 @@ Next,I will do more thing like make it fast,show around of string.
 v0.3.1
 
 这次重构了项目结构，使用cmake，同时将编译器转移到了vscode，方便我后续学习agent和跨平台编码
+
+v0.3.2
+
+支持自定义得到指定词语上下文了，下一步打算学习qt，实现GUI，拖动上传文件，按钮实现功能，窗口呈现结果，点击实现下一段上下文。
+
+v0.3.2
+
+Support customizable context extraction for specified words. The next step is to learn Qt and implement a GUI, including dragging and uploading files, using buttons to trigger functions, displaying results in the window, and clicking to view the next context.
