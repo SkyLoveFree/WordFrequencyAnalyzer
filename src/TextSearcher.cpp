@@ -24,7 +24,7 @@ SearchResult TextSearcher::search(const std::string& text,const std::string& tar
 		{
 			result.count++;
 			result.positions.push_back(i);
-			i += n-1;//跳过已经匹配的部分，因为循环会自动加1，所以这里减1
+			i += n-1;//非重叠匹配，跳过已经匹配的部分，因为循环会自动加1，所以这里减1
 		}
 	}
 	return result;

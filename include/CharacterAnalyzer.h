@@ -11,7 +11,7 @@
 class CharacterAnalyzer
 {
 public:
-	void analyze(const std::vector<char32_t> codepoints);//统计频率
+	void analyze(const std::vector<char32_t>& codepoints);//统计频率
 	void pirntFrequency();//打印频率，未排序
 private:
 	std::unordered_map<char32_t, int> frequency;

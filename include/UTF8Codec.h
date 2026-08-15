@@ -10,6 +10,5 @@ public:
 	static std::string encode(const char32_t& cp);
 	static std::string encode(const std::vector<char32_t>&codepoints);
 	
-private:
-		bool shouldIgnore(char32_t c);//屏蔽一些不需要统计的东西
+
 };

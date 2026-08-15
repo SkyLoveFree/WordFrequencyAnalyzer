@@ -2,7 +2,7 @@
 #include<iostream>
 #include<algorithm>
 
-void CharacterAnalyzer::analyze(const std::vector<char32_t> codepoints)
+void CharacterAnalyzer::analyze(const std::vector<char32_t>& codepoints)
 {
 	for (auto cp : codepoints)
 	{
