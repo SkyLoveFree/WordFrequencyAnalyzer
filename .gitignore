@@ -22,8 +22,10 @@ CMakeFiles/
 cmake_install.cmake
 Makefile
 
-# docs
-docs/
+
 
 #.continue
 .continue
+
+#docs
+docs/

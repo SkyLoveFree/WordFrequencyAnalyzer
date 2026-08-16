@@ -6,7 +6,9 @@
 
 #include<iterator>
 
-std::string FileReader::readFile(const std::string& Filename)
+namespace WFA
+{
+	std::string FileReader::readFile(const std::string& Filename)
 {
 	std::ifstream file(Filename,std::ios::binary);
 	if (!file.is_open())
@@ -20,3 +22,6 @@ std::string FileReader::readFile(const std::string& Filename)
 		std::istreambuf_iterator<char>()
 	);
 }
+
+}//namespace WFA
+

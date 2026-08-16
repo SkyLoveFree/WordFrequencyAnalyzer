@@ -1,23 +1,24 @@
 #include"TextAnalyzer.h"
+namespace WFA
+{
 
 void TextAnalyzer::analyzeChar(const std::string& str)
 {
 	auto codepoints = UTF8Codec::decode(str);
 
-	CharacterAnalyzer.analyze(codepoints);
+	m_CharacterAnalyzer.analyze(codepoints);
 }
 
-void TextAnalyzer::printCharFrequency()
-{
-	CharacterAnalyzer.pirntFrequency();
-}
+
 
 SearchResult TextAnalyzer::search(const std::string& text, const std::string& target)
 {
-	return TextSearcher.search(text, target);
+	return m_TextSearcher.search(text, target);
 }
 
 std::vector<std::string> TextAnalyzer::getContexts(const SearchResult& result,ContextConfig config)
 {
-	return TextSearcher.getContexts(result,config);
+	return m_TextSearcher.getContexts(result,config);
 }
+
+}//namespace WFA

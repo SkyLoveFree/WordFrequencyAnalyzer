@@ -2,6 +2,8 @@
 #include <cstdint>
 #include<string>
 #include<vector>
+namespace WFA
+{	
 
 class UTF8Codec
 {
@@ -12,3 +14,5 @@ public:
 	
 
 };
+
+}//namespace WFA

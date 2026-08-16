@@ -1,4 +1,6 @@
 #include"TextSearcher.h"
+namespace WFA
+{
 
 SearchResult TextSearcher::search(const std::string& text,const std::string& target)//搜索，得到指定词汇的出现次数和位置
 {
@@ -6,9 +8,9 @@ SearchResult TextSearcher::search(const std::string& text,const std::string& tar
 	auto text_decode = UTF8Codec::decode(text);
 	auto target_decode = UTF8Codec::decode(target);
 	size_t m = text_decode.size(), n = target_decode.size();
+	if (n == 0||n>m) return result;//避免出现无限循环,及越界的情况
 	result.text_decode = text_decode;
 	result.target_decode = target_decode;
-	if (n > m) return result;
 	for (size_t i = 0;i <= m - n;++i)//0-m-n
 	{
 		bool match = true;
@@ -44,3 +46,5 @@ std::vector<std::string> TextSearcher::getContexts(const SearchResult& result, C
 	}
 	return contexts;
 }
+
+}//namespace WFA

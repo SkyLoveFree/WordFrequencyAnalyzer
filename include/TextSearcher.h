@@ -1,5 +1,7 @@
 #pragma once
 #include"UTF8Codec.h"
+namespace WFA
+{	
 
 struct SearchResult
 {
@@ -29,3 +31,5 @@ public:
 		ContextConfig config={}
 	);//获得所有指定词汇的上下文，可自定义范围,依赖search函数返回的SearchResult，避免重复解码
 };
+
+}//namespace WFA

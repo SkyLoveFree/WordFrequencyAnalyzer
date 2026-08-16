@@ -35,7 +35,7 @@ v0.2.1
 Today I reorganized the structure, splitting classes into finer granularity to achieve lower coupling and make the code more robust, which allows me to add new features with ease. Previously, UTF decoding/encoding and single-character frequency counting were all written directly inside TextAnalyzer, making it very inconvenient to later add tokenization or word frequency statistics. As the codebase grew larger, modifying a single huge file became increasingly difficult. After refactoring, adding new functionality has become much simpler.
 Next step: I plan to implement a tokenization module and a word frequency statistics module. First, I'll start with simple English tokenization — English is inherently easier to split than other languages (using spaces, punctuation, etc.), which makes it a perfect starting point for a beginner like me.
 
-v0.3.0
+v0.3.
 
 发现还是先做搜索固定词语的频率更简单，于是先实现了这个。 下一步进行优化，将词语出现的位置，和周边的字进行体现，然后再考虑分词。
 
@@ -56,3 +56,7 @@ Support customizable context extraction for specified words. The next step is to
 v0.3.3
 
 稍微修复了下小bug，优化了下结构。
+
+v0.3.4
+
+优化了业务层，让业务层不再负责输出，整体结构更好，更存粹，同时让agent生成了测试文件对功能进行了测试。
