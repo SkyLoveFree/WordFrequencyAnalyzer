@@ -41,10 +41,23 @@ std::vector<std::string> TextSearcher::getContexts(const SearchResult& result, C
 		size_t pos=result.positions[i];
 		size_t start=pos<config.before?0:pos-config.before;
 		size_t end=pos+result.target_decode.size()+config.after>=max?max:pos+result.target_decode.size()+config.after;//[start,end)
-		std::vector<char32_t> context(result.text_decode.begin()+start,result.text_decode.begin()+end);
-		contexts.push_back(UTF8Codec::encode(context));
+        std::vector<char32_t> context(result.text_decode.begin()+start,result.text_decode.begin()+end);
+        contexts.push_back(UTF8Codec::encode(context));
 	}
 	return contexts;
 }
 
+std::string TextSearcher::getContext(const SearchResult& result,
+	size_t occurrence,
+	ContextConfig config)
+{
+	size_t max = result.text_decode.size();
+	size_t pos = result.positions[occurrence];
+
+	size_t start = pos < config.before ? 0 : pos - config.before;
+	size_t end = pos + result.target_decode.size() + config.after > max ? max : pos + result.target_decode.size() + config.after;
+
+	std::vector<char32_t> context(result.text_decode.begin() + start, result.text_decode.begin() + end);
+	return UTF8Codec::encode(context);
+}
 }//namespace SkyReader

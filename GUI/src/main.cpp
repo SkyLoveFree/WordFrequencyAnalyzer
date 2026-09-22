@@ -1,12 +1,17 @@
-#include"TextAnalyzer.h"
-#include"SkyReader_gui_Widget.h"
 #include <QApplication>
+
+#include"Mymainwindow.h"
 
 int main(int argc,char*argv[])
 {
     qDebug()<<"hello skyreader";
+
     QApplication app(argc,argv);
-    SkyReader_gui_Widget sample1;
-    sample1.show();
+
+    MyMainWindow mainwindow;
+
+    mainwindow.show();
+
+
     return app.exec();
 }

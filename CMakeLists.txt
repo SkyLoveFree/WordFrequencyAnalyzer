@@ -64,9 +64,16 @@ qt_add_executable(
 	SkyReader_gui
 	WIN32
 	GUI/src/main.cpp
-	GUI/src/SkyReader_gui_Widget.cpp
-	GUI/include/SkyReader_gui_Widget.h
-	GUI/src/SkyReaderWidget.ui
+	GUI/include/InputPanel.h
+	GUI/src/InputPanel.cpp
+	GUI/include/Outputpanel.h
+	GUI/src/Outputpanel.cpp
+	GUI/include/Tippanel.h
+	GUI/src/Tippanel.cpp
+	GUI/include/Guicontroller.h
+	GUI/src/Guicontroller.cpp
+	GUI/include/Mymainwindow.h
+	GUI/src/Mymainwindow.cpp
 )
 target_link_libraries(
 	SkyReader_gui

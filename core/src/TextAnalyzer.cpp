@@ -21,7 +21,13 @@ std::vector<std::string> TextAnalyzer::getContexts(const SearchResult& result,Co
 	return m_TextSearcher.getContexts(result,config);
 }
 
-//namespace SkyReader
+std::string TextAnalyzer::getContext(const SearchResult& result,
+	size_t occurrence,
+	ContextConfig config )
+{
+    return m_TextSearcher.getContext(result,occurrence,config);
+}
+
 
 void TextAnalyzer::loadFile(const std::string& Filename)
 {
